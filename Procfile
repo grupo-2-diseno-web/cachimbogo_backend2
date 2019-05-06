@@ -1,1 +1,1 @@
-web: gunicorn cachimboGO.wsgi —-log-file -
+web: gunicorn cachimbogo.wsgi —-log-file -
