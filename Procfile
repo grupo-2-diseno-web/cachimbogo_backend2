@@ -1,0 +1,1 @@
+web: gunicorn cachimboGO.wsgi —-log-file -
