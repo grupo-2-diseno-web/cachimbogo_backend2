@@ -26,7 +26,7 @@ SECRET_KEY = 't+qw27+$r$&&vvv#iv1se=^2(m)#amkl*n#f@gti^xps=3hu!2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', 'cachimbogo-backend.herokuapp.com', ]
 
 
 # Application definition
@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'servicios',
 ]
 
 MIDDLEWARE = [
